@@ -1,44 +1,38 @@
-#_Linux The Commmand Line Notes_
-
-Command Line-
-A command line, or terminal, is a text based interface to the system. You are able to enter commands by typing them on the keyboard and feedback will be given to you similarly as text.
-
-*Line 1*- 
-
-presents us with a prompt ( user@bash ). After that we entered a command ( ls ). Typically a command is always the first thing you type. After that we have what are referred to as command line arguments ( -l /home/ryan ). Important to note, these are separated by spaces (there must be a space between the command and the first command line argument also). 
-*Lines 2-5*-
-
- are output from running the command. Most commands produce output and it will be listed straight under the issuing of the command. Other commands just perform their task and don't display any information unless there was an error.
-*Line 6*- 
-
-presents a prompt again. After the command has run and the terminal is ready for you to enter another command the prompt will be displayed. If no prompt is displayed then the command may still be running (you will learn later how to deal with this).
-
-*Opening a MAC's Terminal*
-find the program Terminal under Applications -> Utilities. An easy way to get to it is the key combination 'command + space' which will bring up Spotlight, then start typing Terminal and it will soon show up.
-
-Opening a Windows/ Linux's Terminal- 
-find it in Applications -> System or Applications -> Utilities. Alternatively you may be able to 'right-click' on the desktop and there may be an option 'Open in terminal'.
-If you are on Windows and intend to remotely log into another machine then you will need an SSH client.
-*The Shell*-
-
- part of the operating system that defines how the terminal will behave and looks after running (or executing) commands for you. There are various shells available but the most common one is called bash which stands for Bourne again shell. 
- *Echo*-
-  use a command called echo to display a system variable stating your current shell. echo is a command which is used to display messages.
-#Basic Navigation-
- PWD stands for Print Working Directory. -tells what your current or present working directory is. 
- 
- *Paths*-
- There are 2 types of paths we can use, absolute and relative. Whenever we refer to a file or directory we are using one of these paths. Whenever we refer to a file or directory, we can, in fact, use either type of path (either way, the system will still be directed to the same location).
- 
- *Absolute*- paths specify a location (file or directory) in relation to the root directory. You can identify them easily as they always begin with a forward slash ( / )
-Relative- paths specify a location (file or directory) in relation to where we currently are in the system. They will not begin with a slash.
-*LS*-
-List the contents of a directory
-
-*CD*-
-Change Directories - ie. move to another directory.
-
-*File*-
-obtain information about what type of file a file or directory is.
-*ls -a*-
-List the contents of a directory, including hidden files.
+#Git Notes
+Version Control-
+Version Control is a system that allows you to revisit various versions of a file or set of files by recording changes. Through version control, one can revert a file or project to a previous version, track modifications and modifying individuals, and compare changes.
+Local VCS-
+entails one database on your hard disk that stores changes to files.
+Centralized Version Control System (CVCS)-
+This system entails a single server storing all changes and file versions, which can be accessed by various clients.
+Distributed Version Control systems (DVCS)-
+addresses the major vulnerability of the CVS: the server as a single point of failure.
+Snapshots-
+Git is a DVCS that stores data in a file system made up of snapshots. 
+Local Operations-
+Git mostly relies on local operations because most necessary information can be found in local resources. This allows for process expediency because a project’s history resides on the local disk, eliminating the need to fetch history information from the server, and allowing one to continue work on a project even when not online or on a VPN.
+Tracking Changes-
+Every single change applied to any file or directory is tracked by Git. And, as the gatekeeper, Git will always detect file corruption or loss of information in transit.
+Loss of Data-
+Git is set up to greatly minimize the possibility of irreversible damage to files, such as accidentally lost data. Git makes it extremely difficult for a snapshot of your file that is committed to be lost.
+States-
+Files in Git can reside in three main states: committed, modified and staged.
+Committed-
+Data is securely stored in a local database
+Modified-
+File has been changed but not committed to the database
+Staged-
+Flagged a file’s changed version to be committed in the next snapshot
+An inherent Git tool called git config-
+allows the setting of configuration variables that control aspects of Git’s operation and look.
+After installing Git, users should immediately set the user name and email address, which will be used for every Git commit.
+Without configuration of a default text editor, Git will use the system’s default editor–most likely Vim. To configure a different text editor, such as Emacs, type the following into your Terminal or Command Line:
+$ git config --global core.editor emacs
+To determine the state of files, utilize the git status command:
+$ git status
+Single File
+Track one file only by using the following format:
+git add filename
+All Files
+Track all files in a repository by using the following command:
+$ git add *
