@@ -4,8 +4,11 @@ Growing up in sports gave me a competitive drive automatically, So I naturally l
 Im new to Coding but I intend to learn as much as I can in Code:102 Class.
 
 ##Reading Notes
+
 [Growth Mindset](growthmindsetnotes)
+
 [Markdown](markdownnotes)
+
 [Git](gitnotes)
 
 
