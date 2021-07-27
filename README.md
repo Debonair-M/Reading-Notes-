@@ -16,7 +16,10 @@
 
 3.  Trying My Best No Matter What- Simply having a positive outlook can boost one's enthusiam to learn as much as they can.
 GitHub Profile-https://github.com/Debonair-M .
+<<<<<<< HEAD
 
 [Growth Mindset](GrowthMindsetNotes)
 [Markdown](MarkNotes)
 [Git](GitNotes)
+=======
+>>>>>>> de1a39185b64e3aedad31f5277b3b9a3b6a40347
