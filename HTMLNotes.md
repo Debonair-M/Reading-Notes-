@@ -60,7 +60,7 @@ HTML should be coded to represent the data that will be populated and not based 
 <nav>
 <section>
 <summary>
-<time>
+<time>.
 
 
 
