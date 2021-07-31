@@ -19,7 +19,7 @@ GitHub Profile-https://github.com/Debonair-M .
 
 
 [Growth Mindset](GrowthMindsetNotes)
-[Markdown](Markdown Notes)
+[MarkdownNotes](Markdown Notes)
 [Git](GitNotes)
 [HTML](HTMLNotes)
 [Grizz](Grizz)
