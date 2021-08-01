@@ -1,5 +1,5 @@
-
 # CSS Notes  
+
 *CSS is a language for specifying how documents are presented to users 
 
 CSS (Cascading Style Sheets) allows you to create great-looking web pages
