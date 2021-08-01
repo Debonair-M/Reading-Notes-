@@ -1,6 +1,6 @@
 # CSS Notes  
 
-*CSS is a language for specifying how documents are presented to users 
+* CSS is a language for specifying how documents are presented to users 
 
 CSS (Cascading Style Sheets) allows you to create great-looking web pages
 
@@ -20,25 +20,25 @@ p {
 }
 There are three ways of inserting a style sheet:
 
-*External CSS- 
+* External CSS- 
 With an external style sheet, you can change the look of an entire website by changing just one file!
 Each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section.
 
-*Internal CSS-
+* Internal CSS-
 An internal style sheet may be used if one single HTML page has a unique style.
 The internal style is defined inside the <style> element, inside the head section.
 
-*Inline CSS-
+* Inline CSS-
 An inline style may be used to apply a unique style for a single element.
 To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property. 
 
-*CSS Comments-
+* CSS Comments-
 Comments are used to explain the code, and may help when you edit the source code at a later date.
 Comments are ignored by browsers.
 A CSS comment is placed inside the <style> element, and starts with /* and ends with */
 are not displayed in the browser, but they can help document your source code.
 
-*CSS Colors-
+* CSS Colors-
 body {
   color: red;
 }
@@ -55,6 +55,6 @@ Colors are specified using predefined color names, or RGB, HEX, HSL, RGBA, HSLA 
 <p style="color:DodgerBlue;">Lorem ipsum...</p>
 <p style="color:MediumSeaGreen;">Ut wisi enim...</p>
 
-*Important Property-
+* Important Property-
 The !important rule in CSS is used to add more importance to a property/value than normal.
 In fact, if you use the !important rule, it will override ALL previous styling rules for that specific property on that element!
