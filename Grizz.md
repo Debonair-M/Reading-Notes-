@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html> 
   <head>
   <title> Do or Die Grizz </title>
