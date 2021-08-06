@@ -25,4 +25,4 @@ GitHub Profile-https://github.com/Debonair-M .
 [Grizz](Grizz)
 [CSS](CSSNotes)
 [Java](JavaScript)
-{JSProgrammingNotes}(JSProgrammingNotes.md)
+{JSProgrammingNotes](JSProgrammingNotes)
