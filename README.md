@@ -26,4 +26,4 @@ GitHub Profile-https://github.com/Debonair-M .
 [CSS](CSSNotes)
 [Java](JavaScript)
 [JSProgrammingNotes](JSProgrammingNotes)
-[Loop/Operator](LoopNotes)
+[Loop/Operator](LoopsNotes)
